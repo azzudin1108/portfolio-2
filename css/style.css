@@ -1,0 +1,104 @@
+:root {
+    --roboto: 'Roboto', sans-serif;
+    --blue: #5836e5;
+}
+
+* {
+    font-family: var(--roboto) !important;
+}
+
+.height-scr {
+    height: 100vh !important;
+    width: 100%;
+}
+
+.fwhite {
+    color: #fff !important;
+}
+
+.bg-blue {
+    background-color: var(--blue) !important;
+}
+
+/* bootstrap revisi */
+.navbar-toggler {
+    border: none !important;
+    padding: 0 !important;
+    height: 32px;
+    box-shadow: none !important;
+}
+
+.hamburger::after {
+    content: '';
+    display: block;
+    height: 4px;
+    width: 30px;
+    background-color: #fff;
+    border-radius: 2px;
+    margin-top: 10px;
+    z-index: -1;
+    position: absolute;
+}
+
+.hamburger::before {
+    content: '';
+    display: block;
+    height: 4px;
+    width: 30px;
+    background-color: #fff;
+    border-radius: 2px;
+    margin-top: -10px;
+    z-index: -1;
+    position: absolute;
+}
+
+.hamburger {
+    display: block;
+    height: 4px;
+    width: 30px;
+    background-color: #fff;
+    border-radius: 2px;
+    position: relative;
+    z-index: 1;
+    transform: scale(.8);
+    transition: .3s;
+}
+
+.navbar-toggler:hover .hamburger {
+    transform: scale(1);
+}
+
+.nav-link {
+    color: #eaeaea !important;
+}
+
+.nav-link:hover {
+    color: #fff !important;
+}
+
+.btn-dark:hover {
+    filter: brightness(.8);
+}
+
+.shadow-tr {
+    filter: drop-shadow(12px 12px 5px rgb(0 0 0 / .5));
+}
+
+/* Home */
+#home {
+    background-image: url(../asset/img/bg-lp.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+@media (max-width: 767px) {
+    #desc {
+        order: 2;
+    }
+
+    #pp {
+        order: 1;
+    }
+}
