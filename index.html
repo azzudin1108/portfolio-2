@@ -18,18 +18,22 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md navbar-dark bg-transparent fwhite fixed-top p-3">
+    <nav class="navbar navbar-dark bg-transparent fwhite fixed-top p-3">
         <div class="container">
-            <a class="navbar-brand" href="#">Azz</a>
+            <a class="navbar-brand" href="">
+                <img src="asset/img/logo.png" alt="Azz" width="80px">
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
                 data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
                 aria-label="Toggle navigation">
                 <span class="hamburger"></span>
             </button>
-            <div class="offcanvas offcanvas-end bg-blue" tabindex="-1" id="offcanvasDarkNavbar"
+            <div class="offcanvas offcanvas-end bg-blue-tr" tabindex="-1" id="offcanvasDarkNavbar"
                 aria-labelledby="offcanvasDarkNavbarLabel">
                 <div class="offcanvas-header">
-                    <h5 class="offcanvas-title text-white" id="offcanvasDarkNavbarLabel">Azz</h5>
+                    <h5 class="offcanvas-title text-white" id="offcanvasDarkNavbarLabel">
+                        <img src="asset/img/logo.png" alt="Azz" width="80px">
+                    </h5>
                     <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
                         aria-label="Close"></button>
                 </div>
@@ -39,7 +43,7 @@
                             <a class="nav-link" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Features</a>
+                            <a class="nav-link" href="#">Skill</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Project</a>
@@ -73,6 +77,45 @@
                 </div>
                 <div class="col-md-6 py-md-0 py-3 d-flex justify-content-center" id="pp">
                     <img src="asset/img/profile.png" alt="profile photo" width="300px" class="profile-photo shadow-tr">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="skill" class="bg-body-secondary">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-12 order-1">
+                    <h1 class="fw-bold text-center">SKILL</h1>
+                </div>
+                <div class="col-md-7 p-2 order-md-2 order-3">
+                    <div class="bar-box m-3">
+                        <p class="fw-semibold m-1">HTML</p>
+                        <div class="bar-container p-0">
+                            <div class="bar html"></div>
+                        </div>
+                    </div>
+                    <div class="bar-box m-3">
+                        <p class="fw-semibold m-1">CSS</p>
+                        <div class="bar-container p-0">
+                            <div class="bar css"></div>
+                        </div>
+                    </div>
+                    <div class="bar-box m-3">
+                        <p class="fw-semibold m-1">JAVASCRIPT</p>
+                        <div class="bar-container p-0">
+                            <div class="bar js"></div>
+                        </div>
+                    </div>
+                    <div class="bar-box m-3">
+                        <p class="fw-semibold m-1">BOOTSTRAP</p>
+                        <div class="bar-container p-0">
+                            <div class="bar bootstrap"></div>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="col-md-4 d-flex align-items-center justify-content-md-start justify-content-lg-end justify-content-center order-md-3 order-2">
+                    <img src="asset/img/code.jpg" alt="code" width="300px" class="rounded-3">
                 </div>
             </div>
         </div>
