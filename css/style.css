@@ -89,6 +89,10 @@
     filter: drop-shadow(12px 12px 5px rgb(0 0 0 / .5));
 }
 
+.shadow-tr2 {
+    filter: drop-shadow(2px 2px 2px rgb(0 0 0 / .7));
+}
+
 /* Home */
 #home {
     background-image: url(../asset/img/bg-lp.jpg);
