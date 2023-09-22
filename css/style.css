@@ -220,6 +220,21 @@
         min-height: min-content !important;
     }
 
+    .slide-1 {
+        margin-left: 0 !important;
+        transition: .5s;
+    }
+
+    .slide-2 {
+        margin-left: -101.1% !important;
+        transition: .5s;
+    }
+
+    .slide-3 {
+        margin-left: -202.2% !important;
+        transition: .5s;
+    }
+
 }
 
 @keyframes html {
