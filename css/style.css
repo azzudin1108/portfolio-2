@@ -25,6 +25,10 @@
     background-color: var(--blue-tr) !important;
 }
 
+.bg-lightblue {
+    background-color: #e5eff9 !important;
+}
+
 /* bootstrap revisi */
 .navbar-toggler {
     border: none !important;
@@ -244,10 +248,12 @@
 @keyframes html {
     0% {
         width: 0%;
+        background-color: crimson;
     }
 
     50% {
         width: 80%;
+        background-color: var(--blue);
     }
 
     100% {
@@ -258,10 +264,12 @@
 @keyframes css {
     0% {
         width: 0%;
+        background-color: crimson;
     }
 
     50% {
         width: 90%;
+        background-color: var(--blue);
     }
 
     100% {
@@ -272,10 +280,12 @@
 @keyframes js {
     0% {
         width: 0%;
+        background-color: crimson;
     }
 
     50% {
         width: 70%;
+        background-color: var(--blue);
     }
 
     100% {
@@ -286,10 +296,12 @@
 @keyframes bootstrap {
     0% {
         width: 0%;
+        background-color: crimson;
     }
 
     50% {
         width: 98%;
+        background-color: var(--blue);
     }
 
     100% {
