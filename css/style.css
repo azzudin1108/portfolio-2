@@ -140,40 +140,71 @@
     margin: 0;
 }
 
+#project .carousel .carousel-img .img-project img {
+    margin: 0;
+}
+
+
 .slide-1 {
-    margin-left: 0;
+    margin-left: 0 !important;
     transition: .5s;
 }
 
 .slide-2 {
-    margin-left: -100.5%;
+    margin-left: -100.45% !important;
     transition: .5s;
 }
 
 .slide-3 {
-    margin-left: -201%;
+    margin-left: -200.9% !important;
     transition: .5s;
 }
 
 #project .carousel .carousel-btn a {
     background-color: rgb(0 0 0 / .3);
+    height: 15%;
+    width: 30%;
+    position: relative;
+}
+
+#project .carousel .prev a::before {
+    content: '';
+    position: absolute;
+    background-image: url(../asset/img/prev.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 9;
+    filter: invert(1) opacity(.5);
+    top: 10%;
+    bottom: 10%;
+    right: 10%;
+    left: 10%;
+}
+
+#project .carousel .next a::before {
+    content: '';
+    position: absolute;
+    background-image: url(../asset/img/next.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 9;
+    filter: invert(1) opacity(.5);
+    top: 10%;
+    bottom: 10%;
+    right: 10%;
+    left: 10%;
 }
 
 #project .carousel .carousel-btn a:hover {
     background-color: rgb(0 0 0 / .5);
 }
 
-#project .carousel:hover {
-    filter: brightness(.8);
-}
-
-#project .carousel .carousel-btn a:hover img {
+#project .carousel .carousel-btn a:hover::before {
     filter: invert(1) opacity(.8);
 }
 
-
-#project .carousel .carousel-btn a img {
-    filter: invert(1) opacity(.6);
+#project .carousel:hover {
+    filter: brightness(.8);
 }
 
 @media (max-width: 767px) {

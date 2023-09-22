@@ -1,5 +1,5 @@
 const img = document.querySelectorAll('#project .carousel .carousel-img .img-project img');
-const btn = document.querySelectorAll('#project .carousel-btn');
+const btn = document.querySelectorAll('#project .carousel-btn a');
 
 const gameRev = img[0];
 const next = btn[1];
