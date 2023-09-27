@@ -287,12 +287,6 @@ td {
     background-color: rgb(255 255 255 / .9);
 }
 
-@media (min-height: 667px) {
-    .height-scr {
-        min-height: auto !important;
-    }
-}
-
 @media (max-width: 767px) {
     #home {
         background-image: url(../asset/img/bg-lp.jpg);
