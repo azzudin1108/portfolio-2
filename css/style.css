@@ -122,6 +122,23 @@ p {
     filter: drop-shadow(2px 2px 2px rgb(0 0 0 / .7));
 }
 
+body {
+    margin: 0 !important;
+}
+
+/* typing */
+.wrap {
+    width: max-content;
+}
+
+.typing {
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 3px solid white;
+    padding-right: 30px !important;
+    animation: typing 2s steps(30) infinite alternate, blink .7s infinite;
+}
+
 /* Home */
 #home {
     background-image: url(../asset/img/bg-lp.jpg);
@@ -293,6 +310,7 @@ td {
 
     .height-scr {
         min-height: 100vh;
+        width: 100%;
     }
 
     #desc {
@@ -405,5 +423,26 @@ td {
 
     to {
         margin-left: 5.5%;
+    }
+}
+
+@keyframes typing {
+    0% {
+        width: 0;
+        visibility: hidden;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+
+    100% {
+        border-color: white;
     }
 }
